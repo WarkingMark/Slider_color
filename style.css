@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+.color-select {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 1rem;
+}
+#red::-webkit-slider-runnable-track  {
+    background: red;
+}
+#green::-webkit-slider-runnable-track {
+    background: green;
+}
+#blue::-webkit-slider-runnable-track {
+    background: blue;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.transform_block {
+    max-width: 300px;
+}
